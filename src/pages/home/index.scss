@@ -1,7 +1,64 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
 .Home {
     background-image:url('../../assets/home/background-home-desktop.jpg');
     width: 100vw;
     height: 100vh;
     position: absolute;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__areaText {
+        color: white;
+        width: 450px;
+        padding: 170px 0px 0px 100px;
+
+    }
+
+    &__areaText {
+        font-family: 'barlow';
+        font-weight: 200;
+    }
+
+    &__Text-top {
+        font-size: 35px;
+        font-weight: 100;
+        font-family: 'barlow condensed';
+    }
+
+    &__Text-destac {
+        font-family: 'bellefair';
+        font-size: 120px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__Button {
+        padding-top: 230px;
+        padding-left: 200px;
+    }
+
+    &__Button button {
+        width: 230px;
+        height: 230px;
+        background-color: white;
+        border: none;
+        border-radius: 50%;
+        font-family: 'bellefair';
+        font-size: 25px;
+        font-weight: 200;
+        cursor: pointer;
+        transition: 0.7s;
+
+    }
+
+    &__Button button:hover {
+        background-color: rgba(12, 12, 29, 0.496);
+        transform: scale(1.2);
+        color: white;
+    }
 }

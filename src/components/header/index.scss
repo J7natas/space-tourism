@@ -4,6 +4,15 @@
     display:grid ;
     grid-template-columns: 1fr 1fr;
 
+    #action {
+        border-bottom: 3px solid white;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
     &__logo {
         display: flex;
         align-items: center;
