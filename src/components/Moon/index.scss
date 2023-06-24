@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.Moon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+
+    img {
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    &__Text {
+        width: 400px;
+        margin-top: 90px;
+        margin-left: 105px;
+    }
+
+    &__Text h1 {
+        font-family: 'bellefair';
+        font-size: 70px;
+        font-weight: 400;
+    }
+
+    &__Text p {
+        font-family: 'barlow';
+        font-weight: 200;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    &__Line {
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.334);
+    }
+
+    footer {
+        display: flex;
+    }
+
+    &__distance {
+        margin-right: 100px;
+    }
+
+    &__distance h5,
+    &__time h5 {
+        font-family: 'barlow condensed';
+        font-weight: 200;
+        font-size: 17px;
+    }
+
+    &__distance p,
+    &__time p {
+        font-family: 'bellefair';
+        font-weight: 200;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+}

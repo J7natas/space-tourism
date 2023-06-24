@@ -10,11 +10,13 @@ function Header() {
             <p></p>
         </div>
         <header>
-            <div id='action' className='Header__areas'>
-                <h5>00</h5>
+            <div id='activeHome' className='Header__areas'>
+              <h5>00</h5>
+              <Link to={'/'}>
                 <p>HOME</p>
+              </Link>
             </div>
-            <div className='Header__areas'>
+            <div id='activeDestination' className='Header__areas'>
                 <h5>01</h5>
                 <Link to={'/destination'}>
                   <p>DESTINATION</p>
