@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.Crew Header #activeCrew {
+    border-bottom: 3px solid white;
+}
+
+.Crew {
+    background-image: url('../../assets/crew/background-crew-desktop.jpg');
+    height: 100vh;
+    color: white;
+
+    &__Container {
+        margin-left: 220px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__Titulo-principal {
+        font-family: 'barlow condensed';
+    }
+
+    &__Titulo-principal h2 {
+        font-weight: 200;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    &__Titulo-principal span {
+        color: rgba(255, 255, 255, 0.354);
+        font-weight: 600;
+    }
+
+    &__Area-Text {
+        margin-top: 100px;
+    }
+
+    &__Area-Text h3 {
+        font-family: 'bellefair';
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: rgba(255, 255, 255, 0.677);
+    }
+
+    &__Area-Text h2 {
+        margin-top: 20px;
+        font-family: 'bellefair';
+        font-size: 45px;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    &__Area-Text p {
+        width: 395px;
+        font-family: 'barlow';
+        font-size: 15px;
+        margin-top: 30px;
+        color: rgba(255, 255, 255, 0.677);
+        letter-spacing: 2px;
+
+    }
+
+    &__Bolinhas {
+        width: 150px;
+        height: 30px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__Bolinhas p {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #97979770;
+
+    }
+
+    &__Bolinhas p:hover {
+        background-color: white;
+    }
+
+    &__Area-Right img {
+        height: 550px;
+        margin-top: 11px;
+    }
+}
+
+.Crew #bolinha1 {
+    background-color: white;
+}

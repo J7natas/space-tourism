@@ -5,6 +5,10 @@
     border-bottom: 2px solid white;
 }
 
+Header #activeDestination {
+    border-bottom: 0px;
+}
+
 .Home {
     background-image:url('../../assets/home/background-home-desktop.jpg');
     width: 100vw;

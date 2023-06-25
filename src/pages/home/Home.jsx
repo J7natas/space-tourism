@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import './index.scss';
 const Home = () => {
@@ -14,7 +15,9 @@ const Home = () => {
             because we’ll give you a truly out of this world experience!</p>
         </div>
         <div className='Home__Button'>
-          <button>EXPLORE</button>
+          <Link to={'/destination/moon'}>
+            <button>EXPLORE</button>
+          </Link>
         </div>
       </div>
     </section>

@@ -48,9 +48,15 @@
         font-size: 20px;
         margin-right: 10px;
     }
+    &__areas p {
+        cursor: pointer;
+    }
 
     &__areas:hover {
         border-bottom: 3px solid white;
-        cursor: pointer;
+    }
+
+    #activeDestination:hover {
+        border-bottom: 3px solid white;
     }
 }

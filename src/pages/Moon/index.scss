@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
+
+.Moon {
+    color: white;
+    display: grid;
+    padding: 10px 00px 10px 110px;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__Area-Left h3 {
+        font-family: 'barlow condensed';
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    &__Area-Left span {
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.406);
+    }
+
+    &__Area-Left img {
+        height: 400px;
+        margin-top: 60px;
+        margin-left: 70px;
+    }
+
+    &__Description {
+        margin-top: 120px;
+        margin-left: 5px;
+        width: 400px;
+    }
+
+    &__Description h1 {
+        font-family: 'bellefair';
+        font-size: 90px;
+        font-weight: 200;
+        letter-spacing: 10px;
+    }
+
+    &__Description p {
+        font-family: 'barlow';
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    footer {
+        display: flex;
+        padding-top: 30px;
+        margin-top: 50px;
+        border-top: 1px solid rgba(255, 255, 255, 0.339);
+    }
+
+    &__Distance {
+        margin-right: 60px;
+    }
+
+    &__Distance p,
+    &__Time p {
+        font-family: 'barlow condensed';
+        font-size: 15px;
+    }
+
+    &__Time h5,
+    &__Distance h5 {
+        font-family: 'bellefair';
+        font-size: 28px;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+}
+
+.Moon #active-mon {
+    border-bottom: 2px solid white;
+}

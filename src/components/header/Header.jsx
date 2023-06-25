@@ -3,6 +3,7 @@ import logo from '../../assets/shared/logo.svg';
 import { Link } from 'react-router-dom';
 
 function Header() {
+
   return (
     <div className='Header'>
          <div className='Header__logo'>
@@ -18,11 +19,11 @@ function Header() {
             </div>
             <div id='activeDestination' className='Header__areas'>
                 <h5>01</h5>
-                <Link to={'/destination'}>
+                <Link to={'/destination/moon'}>
                   <p>DESTINATION</p>
                 </Link>
             </div>
-            <div className='Header__areas'>
+            <div id='activeCrew' className='Header__areas'>
                 <h5>02</h5>
                 <Link to={'/crew'}>
                   <p>CREW</p>

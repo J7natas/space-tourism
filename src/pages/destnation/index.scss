@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
 
-.Destination Header #activeDestination {
-    border-bottom: 3px solid white;
-}
 
 
 .Destination {
@@ -33,4 +30,7 @@
         font-weight: 400;
         margin-right: 20px;
     }
+}
+.Destination #activeDestination {
+    border-bottom: 3px solid white;
 }
