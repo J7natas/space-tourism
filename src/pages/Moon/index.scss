@@ -73,3 +73,56 @@
 .Moon #active-mon {
     border-bottom: 2px solid white;
 }
+
+@media screen and (max-width: 900px) {
+    .Moon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .Moon__Area-Left h3 {
+       margin-left: 0px;
+    }
+    .Moon__Area-Rigth {
+        text-align: center;
+     }
+
+     .Moon__Description h1 {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Moon__Description p {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Moon footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 40px;
+        padding-left: 50px;
+    }
+
+    .Moon__Distance p {
+        margin-left: -65px;
+    }
+
+    .Moon__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Moon__Time h5,
+     .Moon__Distance h5 {
+       text-align: center;
+    }
+
+    .Moon__Area-Left h3 {
+       margin-left: -120px;
+    }
+}

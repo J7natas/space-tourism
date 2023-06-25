@@ -29,7 +29,7 @@ function Header() {
                   <p>CREW</p>
                 </Link>
             </div>
-            <div className='Header__areas'>
+            <div id='activeTechnology' className='Header__areas'>
                 <h5>03</h5>
                 <Link to={'/technology'}>
                   <p>TECHNOLOGY</p>

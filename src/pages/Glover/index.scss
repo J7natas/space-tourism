@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
 
 
-.Mark Header #activeCrew {
+.Glover Header #activeCrew {
     border-bottom: 3px solid white;
 }
 
-.Mark {
+.Glover {
     background-image: url('../../assets/crew/background-crew-desktop.jpg');
     height: 100vh;
     color: white;
@@ -91,26 +91,26 @@
     }
 }
 
-.Mark #bolinha2 {
+.Glover #bolinha3 {
     background-color: white;
 }
 
 @media screen and (max-width: 900px) {
 
-    .Mark {
-        height: 190vh;
+    .Glover {
+        height: 193vh;
     }
 
-    .Mark__Area-Text p {
-        margin-left: 70px;
+    .Glover__Area-Text p {
+        margin-left: 0px;
     }
 
-    .Mark__Titulo-principal h2 {
+    .Glover__Titulo-principal h2 {
        margin-top: 50px;
        margin-left: -400px;
     }
 
-    .Mark__Container {
+    .Glover__Container {
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -119,7 +119,7 @@
         text-align: center;
     }
 
-    .Mark__Bolinhas {
+    .Glover__Bolinhas {
        margin-left: 140px;
     }
 }

@@ -81,3 +81,62 @@
 .Titan #active-titan {
     border-bottom: 2px solid white;
 }
+
+@media screen and (max-width: 900px) {
+
+    .bannerMars {
+        padding-bottom: 1100px;
+    }
+
+    .Titan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .Titan__Area-Left h3 {
+       margin-left: 0px;
+    }
+    .Titan__Area-Rigth {
+        text-align: center;
+     }
+
+     .Titan__Description h1 {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Titan__Description p {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Titan footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 40px;
+        padding-left: 50px;
+    }
+
+    .Titan__Distance p {
+        margin-left: -65px;
+    }
+
+    .Mars__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Mars__Time h5,
+     .Mars__Distance h5 {
+       text-align: center;
+       font-size: 25px;
+    }
+
+    .Titan__Area-Left h3 {
+       margin-left: -120px;
+    }
+}

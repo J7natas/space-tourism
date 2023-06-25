@@ -27,7 +27,7 @@ const Mark = () => {
             <Link to={'/crew/mark'}>
                 <p id='bolinha2'></p>
             </Link>
-            <Link to={'/crew/glove'}>
+            <Link to={'/crew/glover'}>
                 <p id='bolinha3'></p>
             </Link>
             <Link to={'/crew/ansary'}>

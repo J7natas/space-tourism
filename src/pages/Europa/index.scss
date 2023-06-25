@@ -81,3 +81,62 @@
 .Europa #active-europa {
     border-bottom: 2px solid white;
 }
+
+@media screen and (max-width: 900px) {
+
+    .bannerMars {
+        padding-bottom: 1100px;
+    }
+
+    .Europa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .Europa__Area-Left h3 {
+       margin-left: 0px;
+    }
+    .Europa__Area-Rigth {
+        text-align: center;
+     }
+
+     .Europa__Description h1 {
+       text-align: center;
+       margin-left: 40px;
+    }
+
+    .Europa__Description p {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Europa footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 40px;
+        padding-left: 50px;
+    }
+
+    .Europa__Distance p {
+        margin-left: -65px;
+    }
+
+    .Europa__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Europa__Time h5,
+     .Europa__Distance h5 {
+       text-align: center;
+       font-size: 25px;
+    }
+
+    .Europa__Area-Left h3 {
+       margin-left: -120px;
+    }
+}

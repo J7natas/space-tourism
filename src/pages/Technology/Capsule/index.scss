@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&family=Kumbh+Sans:wght@400;700&display=swap');
+
+.Capsule Header #activeTechnology {
+    border-bottom: 3px solid white;
+}
+
+.Capsule {
+    background-image: url('../../../assets/technology/background-technology-desktop.jpg');
+    height: 100vh;
+    color: white;
+
+    &__Container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 220px;
+    }
+
+    &__Area-Left {
+        margin-top: 50px;
+    }
+
+    &__Title-page h2 {
+        font-family: 'barlow condensed';
+        font-weight: 200;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    &__Title-page span {
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.299);
+    }
+
+    &__Sidebar {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    &__Navegation p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.429);
+        margin-right: 80px;
+        margin-bottom: 30px;
+        font-family: 'bellefair';
+        font-size: 20px;
+    }
+
+    &__Navegation a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    &__Navegation p:hover {
+        background-color: white;
+        color: #0B0D17;
+        cursor: pointer;
+    }
+
+    &__Information h3 {
+        font-family: 'barlow condensed';
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+    &__Information h2 {
+        font-family: 'bellefair';
+        font-weight: 200;
+        font-size: 40px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+    }
+
+    &__Information p {
+        margin-top: 30px;
+        width: 350px;
+        font-family: 'barlow';
+        font-weight: 200;
+        font-size: 15px;
+    }
+
+    &__Area-right {
+        margin-left: 80px;
+    }
+
+    &__Area-right img {
+        height: 450px;
+        margin-left: 70px;
+        margin-top: 70px;
+        border-top-left-radius: 60%;
+        border-bottom-left-radius: 60%;
+    }
+
+}
+
+.Capsule #navigation3 {
+    background-color: white;
+    color: #0B0D17;
+}
+
+@media screen and (max-width:900px) {
+    .Capsule {
+        height: 160vh;
+    }
+    .Capsule__Container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .Capsule__Sidebar {
+        display: flex;
+        flex-direction: column;
+       margin-top: 0px;
+    }
+
+    .Capsule__Navegation {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+
+    .Capsule__Information {
+        margin-left: 30px;
+    }
+
+    .Capsule__Information p {
+        margin-left: 50px;
+    }
+
+    .Capsule__Area-right img {
+        height: 350px;
+        width: 650px;
+        margin-left: 0px;
+        border-radius: 0px;
+        margin-left: -80px;
+        
+    }
+}

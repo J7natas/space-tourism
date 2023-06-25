@@ -60,3 +60,44 @@
         border-bottom: 3px solid white;
     }
 }
+
+@media screen and (max-width: 900px) {
+
+    .Header header {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .Header {
+        padding: 0px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Header__logo p {
+       display: none;
+    }
+
+    .Header__areas h5 {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .Header__areas p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .Header header {
+        display: none;
+    }
+
+    .Header__logo img {
+        height: 30px;
+        margin-top: 30px;
+    }
+    
+}

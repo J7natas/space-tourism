@@ -94,3 +94,28 @@
 .Crew #bolinha1 {
     background-color: white;
 }
+
+@media screen and (max-width: 900px) {
+
+    .Crew {
+        height: 190vh;
+    }
+
+    .Crew__Titulo-principal h2 {
+       margin-top: 50px;
+       margin-left: -400px;
+    }
+
+    .Crew__Container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Crew__Bolinhas {
+       margin-left: 140px;
+    }
+}

@@ -74,10 +74,69 @@
     }
 }
 
-#activeDestination {
+.bannerMars Header #activeDestination {
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .Mars #active-mars {
     border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 900px) {
+
+    .bannerMars {
+        padding-bottom: 1100px;
+    }
+
+    .Mars {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .Mars__Area-Left h3 {
+       margin-left: 0px;
+    }
+    .Mars__Area-Rigth {
+        text-align: center;
+     }
+
+     .Mars__Description h1 {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Mars__Description p {
+       text-align: center;
+       margin-left: 70px;
+    }
+
+    .Mars footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 40px;
+        padding-left: 50px;
+    }
+
+    .Mars__Distance p {
+        margin-left: -65px;
+    }
+
+    .Mars__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Mars__Time h5,
+     .Mars__Distance h5 {
+       text-align: center;
+       font-size: 25px;
+    }
+
+    .Mars__Area-Left h3 {
+       margin-left: -120px;
+    }
 }

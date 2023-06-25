@@ -4,7 +4,6 @@
 
 .Destination {
     background-image: url('../../assets/destination/background-destination-desktop.jpg');
-    width: 100vw;
     height: 100vh;
 
     &__Container{
@@ -33,4 +32,11 @@
 }
 .Destination #activeDestination {
     border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 900px){
+    .Destination {
+        height: 190vh;
+        width: 100%;
+    }
 }
