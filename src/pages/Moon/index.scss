@@ -2,8 +2,7 @@
 
 .Moon {
     color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     padding: 10px 00px 10px 110px;
 
     &__Area-Left h3 {
@@ -12,6 +11,8 @@
         font-weight: 200;
         font-size: 30px;
         letter-spacing: 4px;
+        margin-right: 300px;
+
     }
 
     &__Area-Left span {
