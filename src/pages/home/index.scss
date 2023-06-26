@@ -176,6 +176,21 @@ Header #activeDestination {
     }
 }
 
+@media screen and (max-width:400px) {
+    .Home #image-menu {
+        margin-left: 340px;
+        margin-top: -25px;
+    }
+
+    .Home #menu {
+        margin-left: 210px;
+        height: 133vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+}
+
 @media screen and (max-width:350px) {
     .Home #image-menu {
         margin-left: 310px;
@@ -185,6 +200,36 @@ Header #activeDestination {
     .Home #menu {
         margin-left: 150px;
         height: 160vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .Home #image-menu {
+        margin-left: 295px;
+        margin-top: -25px;
+    }
+
+    .Home #menu {
+        margin-left: 150px;
+        height: 133vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .Home #image-menu {
+        margin-left: 260px;
+        margin-top: -25px;
+    }
+
+    .Home #menu {
+        margin-left: 150px;
+        height: 133vh;
         width: 190px;
         padding-top: 0px;
         margin-top: -80px;
