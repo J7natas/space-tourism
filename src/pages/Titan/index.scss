@@ -188,15 +188,21 @@
         text-align: center;
         margin-left: 0px;
         padding-left: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .Titan__Distance p {
-        margin-left: -65px;
+        margin-left: 0px;
     }
 
-    .Titan__Time p {
-       margin-left: 0px;
-       text-align: center;
+    .Titan .Titan__Time p {
+       margin-left: -50px;
+    }
+
+    .Titan__Time h5 {
+        margin-left: -60px;
     }
 
     .Titan__Time h5,

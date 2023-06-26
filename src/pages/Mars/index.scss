@@ -143,14 +143,14 @@
 
 @media screen and (max-width: 450px) {
 
-    .bannerMars #menu {
-        margin-left: 115px;
+    .bannerMars .Menu #menu {
+        margin-left: 188px;
         margin-top: -80px;
-        height: 180vh;
+        height: 138vh;
     }
 
     .bannerMars #image-menu {
-       margin-left: 320px;
+       margin-left: 410px;
        margin-top: -20px;
     }
 
@@ -187,15 +187,17 @@
         text-align: center;
         margin-left: 0px;
         padding-left: 50px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
     }
 
     .Mars__Distance p {
-        margin-left: -65px;
+        margin-left: 0px;
     }
 
-    .Mars__Time p {
-       margin-left: 0px;
-       text-align: center;
+    .Mars .Mars__Time p {
+      margin-left: -50px;
     }
 
     .Mars__Time h5,
@@ -203,65 +205,75 @@
        text-align: center;
     }
 
+    .Mars__Time h5 {
+        margin-left: -50px;
+    }
+
     .Mars__Area-Left h3 {
        margin-left: -120px;
     }
 }
 
-@media screen and (max-width: 350px) {
-
-    .Mars__Area-Left h3 {
-      padding-left: 90px;
-      font-size: 20px;
+@media screen and (max-width:412px) {
+    .Mars #image-menu {
+        margin-left: 370px;
+        margin-top: -25px;
     }
 
-    .bannerMars .Menu #image-menu {
-        margin-left: 310px;
-    }
-
-    .Mars__Area-Left img {
-        height: 200px;
-        margin-left: 20px;
-    }
-
-    .Mars__Area-Rigth {
-        text-align: center;
-     }
-
-     .Mars__Description h1 {
-       text-align: center;
-       margin-left: 0px;
-       font-size: 45px;
-    }
-
-    .Mars__Description p {
-       text-align: center;
-       margin-left: 0px;
-       font-size: 15px;
-       width: 300px;
-       margin: auto;
-    }
-
-    .Mars footer {
-        width: 400px;
-        text-align: center;
-        margin-left: 0px;
-        padding-left: 50px;
-        font-size: 15px;
-        display: block;
-    }
-
-    .Mars__Time h5 {
-        text-align: center;
-        margin-left: -50px;
+    .Mars #menu {
+        margin-left: 222px;
+        height: 133vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
     }
 
     .Mars__Distance h5 {
-        margin-left: 30px;
+        margin-left: 60px;
     }
 
-    .Mars__Time p {
-        margin: 0;
+
+}
+
+@media screen and (max-width:400px) {
+    .Mars .Menu #image-menu {
+        margin-left: 150px;
+        margin-top: -45px;
+    }
+
+    .Mars #menu {
+        margin-left: 9px;
+        height: 120vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+
+   
+}
+
+@media screen and (max-width:330px) {
+    .Mars .Menu #image-menu {
+        margin-left: 125px;
+        margin-top: -45px;
+    }
+
+    .Mars #menu {
+        margin-left: -28px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+
+    .Mars__Area-Left h3 {
+        font-size: 20px;
+        margin-left: 30px;
+     }
+
+     .Mars__Description p {
+        font-size: 15px;
+        width: 290px;
+        margin-left: 50px;
     }
 
 }

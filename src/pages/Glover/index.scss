@@ -127,23 +127,23 @@
 @media screen and (max-width: 450px) {
 
     .Glover {
-        height: 167vh;
+        height: 126vh;
     }
 
     .Glover #menu {
-        margin-left: 125px;
+        margin-left: 190px;
         margin-top: -80px;
-        height: 170vh;
+        height: 128vh;
     }
 
     .Glover #image-menu {
-        margin-left: 320px;
-        margin-top: -20px;
-     }
+       margin-left: 410px;
+       margin-top: -20px;
+    }
 
     .Glover__Titulo-principal h2 {
        margin-top: 50px;
-       margin-left: -130px;
+       margin-left: -125px;
        font-size: 30px;
     }
 
@@ -160,7 +160,7 @@
     .Glover__Area-Text p {
         font-size: 12px;
         width: 350px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .Glover__Bolinhas {
@@ -176,15 +176,17 @@
 @media screen and (max-width: 350px) {
 
     .Glover {
-        height: 151vh;
+        height: 113vh;
     }
 
     .Glover #image-menu {
         margin-left: 310px;
      }
 
-    .Glover #menu {
-        height: 154vh;
+     .Glover #menu {
+        margin-left: 90px;
+        margin-top: -80px;
+        height: 115vh;
     }
 
     .Glover__Titulo-principal h2 {
@@ -195,22 +197,22 @@
 
     .Glover__Area-Text h3 {
        font-size: 20px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
 
     .Glover__Area-Text h2 {
        font-size: 25px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
 
     .Glover__Area-Text p {
         font-size: 12px;
         width: 300px;
-        margin-left: -20px;
+        margin-left: -5px;
     }
 
     .Glover__Bolinhas {
-       margin-left: 60px;
+       margin-left: 80px;
     }
 
     .Glover__Area-Right img {

@@ -144,14 +144,17 @@
 }
 
 @media screen and (max-width:450px) {
+    .Technology {
+        height: 110vh;
+    }
     .Technology #menu {
-        margin-left: 176px;
+        margin-left: 192px;
         margin-top: -80px;
-        height: 163vh;
+        height: 112vh;
     }
 
     .Technology #image-menu {
-       margin-left: 380px;
+       margin-left: 410px;
        margin-top: -20px;
     }
 

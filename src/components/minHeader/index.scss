@@ -38,3 +38,14 @@
       margin-left: 60px;
     }
 }
+
+@media screen and (max-width:330px) {
+
+    .MiniHeader {
+        margin-left: 80px;
+      }
+
+    .MiniHeader h3 {
+        margin-right: 30px;
+    }
+}

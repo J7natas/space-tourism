@@ -127,24 +127,23 @@
 @media screen and (max-width: 450px) {
 
     .Ansary {
-        height: 167vh;
+        height: 124vh;
     }
 
     .Ansary #menu {
-        margin-left: 125px;
+        margin-left: 190px;
         margin-top: -80px;
-        height: 155vh;
+        height: 126vh;
     }
 
     .Ansary #image-menu {
-        margin-left: 320px;
-        margin-top: -20px;
-     }
-
+       margin-left: 410px;
+       margin-top: -20px;
+    }
 
     .Ansary__Titulo-principal h2 {
        margin-top: 50px;
-       margin-left: -130px;
+       margin-left: -125px;
        font-size: 30px;
     }
 
@@ -161,7 +160,7 @@
     .Ansary__Area-Text p {
         font-size: 12px;
         width: 350px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .Ansary__Bolinhas {
@@ -177,12 +176,18 @@
 @media screen and (max-width: 350px) {
 
     .Ansary {
-        height: 151vh;
+        height: 111vh;
     }
 
     .Ansary #image-menu {
         margin-left: 310px;
      }
+
+     .Ansary #menu {
+        margin-left: 90px;
+        margin-top: -80px;
+        height: 113vh;
+    }
 
     .Ansary__Titulo-principal h2 {
        margin-top: 50px;
@@ -192,22 +197,22 @@
 
     .Ansary__Area-Text h3 {
        font-size: 20px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
 
-    .Glover__Area-Text h2 {
+    .Ansary__Area-Text h2 {
        font-size: 25px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
 
     .Ansary__Area-Text p {
         font-size: 12px;
         width: 300px;
-        margin-left: -20px;
+        margin-left: -5px;
     }
 
     .Ansary__Bolinhas {
-       margin-left: 60px;
+       margin-left: 80px;
     }
 
     .Ansary__Area-Right img {

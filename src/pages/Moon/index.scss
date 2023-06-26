@@ -141,13 +141,16 @@
         overflow: hidden;
     }
 
-    .Moon__Area-Left h3 {
-      padding-left: 90px;
+    .Moon .Moon__Area-Left h3 {
+      padding-left: 0px;
+      margin-left: 90px;
+      margin-top: 20px;
+      width: 100%;
     }
 
     .Moon__Area-Left img {
         height: 200px;
-        margin-left: 60px;
+        margin-left: 170px;
     }
 
     .Moon__Area-Rigth {
@@ -157,22 +160,27 @@
      .Moon__Description h1 {
        text-align: center;
        margin-left: 0px;
+       font-size: 40px;
     }
 
     .Moon__Description p {
        text-align: center;
        margin-left: 0px;
+       width: 290px;
+       margin-left: 50px;
+       font-size: 15px;
     }
 
     .Moon footer {
-        width: 400px;
+        width: 350px;
         text-align: center;
         margin-left: 0px;
         padding-left: 50px;
+        flex-direction: column;
     }
 
     .Moon__Distance p {
-        margin-left: -65px;
+        margin-left: 0px;
     }
 
     .Moon__Time p {
@@ -180,9 +188,11 @@
        text-align: center;
     }
 
-    .Moon__Time h5,
+    .Moon__Time h5{
+        margin-left: -15px;
+    }
      .Moon__Distance h5 {
-       text-align: center;
+       margin-left: 40px;
     }
 
     .Moon__Area-Left h3 {
@@ -190,78 +200,105 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width:420px) {
 
-    .Moon__Area-Left h3 {
-      padding-left: 90px;
-      font-size: 20px;
+    .Moon .Menu #image-menu {
+        margin-left: 170px;
+        margin-top: -45px;
     }
 
     .Moon #menu {
-        margin-left: -70px;
-        margin-top: -80px;
+        margin-left: 20px;
         height: 190vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
     }
 
-    .Moon .Menu #image-menu {
-        margin-left: 135px;
+    .Moon__Area-Left h3 {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 25px;
+        margin-top: 20px;
     }
 
     .Moon__Area-Left img {
         height: 200px;
-        margin-left: 20px;
+        margin-left: 175px;
     }
 
-    .Moon__Area-Rigth {
-        text-align: center;
-     }
-
-     .Moon__Description h1 {
-       text-align: center;
-       margin-left: 0px;
-       font-size: 45px;
+    .Moon__Description h1 {
+       font-size: 60px;
     }
 
     .Moon__Description p {
-       text-align: center;
-       margin-left: 0px;
-       font-size: 15px;
-       width: 300px;
-       margin: auto;
+        font-size: 17px;
+        width: 290px;
+        margin: auto;
     }
 
     .Moon footer {
         width: 400px;
         text-align: center;
-        margin-left: 0px;
-        padding-left: 50px;
-        font-size: 15px;
         display: block;
     }
 
-    .Moon__Time h5 {
-        text-align: center;
-        margin-left: -50px;
-    }
-
-    .Moon__Distance h5 {
-        margin-left: 30px;
-    }
-
     .Moon__Time p {
-        margin: 0;
+      margin-left: 0px;
     }
-
+    .Moon__Time h5 {
+        margin-left: -60px;
+      }
 }
 
-@media screen and (max-width: 330px) {
-    .Moon #menu {
-        margin-left: -70px;
-        margin-top: -80px;
-        height: 190vh;
+@media screen and (max-width:412px) {
+    .Moon #image-menu {
+        margin-left: 370px;
+        margin-top: -25px;
     }
 
-    .Moon .Menu #image-menu {
-        margin-left: 105px;
+    .Moon #menu {
+        margin-left: 222px;
+        height: 133vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
     }
+}
+
+@media screen and (max-width:400px) {
+    .Moon .Menu #image-menu {
+        margin-left: 150px;
+        margin-top: -45px;
+    }
+
+    .Moon #menu {
+        margin-left: 9px;
+        height: 120vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+
+   
+}
+
+@media screen and (max-width:330px) {
+    .Moon .Menu #image-menu {
+        margin-left: 125px;
+        margin-top: -45px;
+    }
+
+    .Moon #menu {
+        margin-left: -28px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+
+    .Moon__Area-Left h3 {
+        font-size: 20px;
+        margin-left: 30px;
+     }
+
 }

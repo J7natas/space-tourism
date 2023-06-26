@@ -107,10 +107,17 @@ Header #activeDestination {
     .Home {
         width: 100%;
         overflow: hidden;
+        height: 100vh;
     }
 
     .Home #image-menu {
-        display: block;
+       margin-left: 390px;
+       margin-top: -25px;
+    }
+
+    .Home #menu {
+        margin-top: -60px;
+        height: 99vh;
     }
 
     .Home__areaText {
@@ -173,6 +180,36 @@ Header #activeDestination {
      .Home__Button button {
         width: 150px;
         height: 150px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .Home #image-menu {
+        margin-left: 370px;
+        margin-top: -25px;
+    }
+
+    .Home #menu {
+        margin-left: 230px;
+        height: 133vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .Home #image-menu {
+        margin-left: 370px;
+        margin-top: -25px;
+    }
+
+    .Home #menu {
+        margin-left: 222px;
+        height: 133vh;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
     }
 }
 

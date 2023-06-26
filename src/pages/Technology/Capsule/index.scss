@@ -146,14 +146,17 @@
 }
 
 @media screen and (max-width:450px) {
+    .Capsule {
+        height: 110vh;
+    }
     .Capsule #menu {
-        margin-left: 176px;
+        margin-left: 188px;
         margin-top: -80px;
-        height: 163vh;
+        height: 112vh;
     }
 
     .Capsule #image-menu {
-       margin-left: 380px;
+       margin-left: 410px;
        margin-top: -20px;
     }
 

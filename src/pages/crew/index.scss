@@ -123,37 +123,40 @@
 @media screen and (max-width: 450px) {
 
     .Crew {
-        height: 163vh;
+        height: 122vh;
     }
 
     .Crew #menu {
-        margin-left: 115px;
+        margin-left: 190px;
         margin-top: -80px;
-        height: 150vh;
+        height: 124vh;
     }
 
     .Crew #image-menu {
-       margin-left: 320px;
+       margin-left: 410px;
        margin-top: -20px;
     }
 
     .Crew__Titulo-principal h2 {
        margin-top: 50px;
-       margin-left: -120px;
+       margin-left: -125px;
        font-size: 30px;
     }
 
     .Crew__Area-Text h3 {
        font-size: 25px;
+       margin-left: -20px;
     }
 
     .Crew__Area-Text h2 {
        font-size: 30px;
+       margin-left: -20px;
     }
 
     .Crew__Area-Text p {
         font-size: 12px;
         width: 350px;
+        margin-left: -20px;
     }
 
     .Crew__Bolinhas {
@@ -169,12 +172,18 @@
 @media screen and (max-width: 350px) {
 
     .Crew {
-        height: 146vh;
+        height: 110vh;
     }
 
     .Crew #image-menu {
         margin-left: 310px;
      }
+
+     .Crew #menu {
+        margin-left: 90px;
+        margin-top: -80px;
+        height: 112vh;
+    }
 
     .Crew__Titulo-principal h2 {
        margin-top: 50px;
@@ -184,22 +193,22 @@
 
     .Crew__Area-Text h3 {
        font-size: 20px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
 
     .Crew__Area-Text h2 {
        font-size: 25px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
 
     .Crew__Area-Text p {
         font-size: 12px;
         width: 300px;
-        margin-left: -20px;
+        margin-left: -5px;
     }
 
     .Crew__Bolinhas {
-       margin-left: 60px;
+       margin-left: 80px;
     }
 
     .Crew__Area-Right img {

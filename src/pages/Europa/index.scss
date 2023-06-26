@@ -187,15 +187,21 @@
         text-align: center;
         margin-left: 0px;
         padding-left: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .Europa__Distance p {
-        margin-left: -65px;
+        margin-left: 0px;
     }
 
-    .Europa__Time p {
-       margin-left: 0px;
-       text-align: center;
+    .Europa .Europa__Time p {
+      margin-left: -50px;
+    }
+
+    .Europa__Time h5 {
+        margin-left: -60px;
     }
 
     .Europa__Time h5,
