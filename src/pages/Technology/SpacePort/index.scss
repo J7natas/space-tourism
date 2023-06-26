@@ -167,6 +167,25 @@
     }
 }
 
+@media screen and (max-width:412px){
+    .Port  {
+        height: 109vh;
+    }
+
+    .Port #image-menu {
+        margin-left: 360px;
+        margin-top: -25px;
+    }
+
+    .Port #menu {
+        margin-left: 220px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+        height: 109vh;
+    }
+}
+
 @media screen and (max-width:350px) {
     .Port #menu {
         margin-left: 100px;

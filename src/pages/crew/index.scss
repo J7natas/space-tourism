@@ -168,6 +168,24 @@
         margin-top: 11px;
     }
 }
+@media screen and (max-width:412px){
+    .Crew  {
+        height: 109vh;
+    }
+
+    .Crew #image-menu {
+        margin-left: 360px;
+        margin-top: -25px;
+    }
+
+    .Crew #menu {
+        margin-left: 220px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+        height: 109vh;
+    }
+}
 
 @media screen and (max-width: 350px) {
 

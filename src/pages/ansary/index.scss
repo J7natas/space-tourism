@@ -173,6 +173,25 @@
     }
 }
 
+@media screen and (max-width:412px){
+    .Ansary  {
+        height: 109vh;
+    }
+
+    .Ansary #image-menu {
+        margin-left: 360px;
+        margin-top: -25px;
+    }
+
+    .Ansary #menu {
+        margin-left: 220px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+        height: 109vh;
+    }
+}
+
 @media screen and (max-width: 350px) {
 
     .Ansary {

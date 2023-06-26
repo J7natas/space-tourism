@@ -173,6 +173,25 @@
     }
 }
 
+@media screen and (max-width:412px){
+    .Glover  {
+        height: 109vh;
+    }
+
+    .Glover #image-menu {
+        margin-left: 360px;
+        margin-top: -25px;
+    }
+
+    .Glover #menu {
+        margin-left: 220px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+        height: 109vh;
+    }
+}
+
 @media screen and (max-width: 350px) {
 
     .Glover {
