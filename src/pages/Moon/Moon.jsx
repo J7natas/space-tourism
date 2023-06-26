@@ -1,11 +1,14 @@
 
 import './index.scss';
 import imageMoon from '../../assets/destination/image-moon.png';
-import MiniHeader from '../../components/minHeader/Mini'
+import MiniHeader from '../../components/minHeader/Mini';
+import Menu from '../../components/Menu/Menu';
 
 function Moon() {
+
   return (
     <section className='Moon'>
+        <Menu />
         <div className='Moon__Area-Left'>
             <h3> <span>01</span> Pick your destination </h3>
             <img src={imageMoon} />

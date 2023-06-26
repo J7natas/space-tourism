@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import './index.scss';
 import fotoAnsary from '../../assets/crew/image-anousheh-ansari.png';
+import Menu from "../../components/Menu/Menu";
 
 const Ansary = () => {
   return (
     <section  className='Ansary'>
     <Header />
+    <Menu />
     <div className='Ansary__Container'>
         <div className='Ansary__Area-Left'>
            <div className='Ansary__Titulo-principal'>

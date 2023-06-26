@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import Header from "../../../components/header/Header";
 import capsule from '../../../assets/technology/image-space-capsule-portrait.jpg';
 import './index.scss';
+import Menu from "../../../components/Menu/Menu";
 
 const Capsule = () => {
   return (
     <section className='Capsule'>
     <Header />
+    <Menu />
     <div className='Capsule__Container'>
         <div className='Capsule__Area-Left'>
             <div className='Capsule__Title-page'>

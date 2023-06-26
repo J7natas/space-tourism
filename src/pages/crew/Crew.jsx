@@ -3,11 +3,13 @@ import Header from '../../components/header/Header';
 import './index.scss';
 import fotoDouglas from '../../assets/crew/image-douglas-hurley.png';
 import { Link } from 'react-router-dom';
+import Menu from '../../components/Menu/Menu';
 
 const Crew = () => {
   return (
     <section  className='Crew'>
         <Header />
+        <Menu />
         <div className='Crew__Container'>
             <div className='Crew__Area-Left'>
                <div className='Crew__Titulo-principal'>

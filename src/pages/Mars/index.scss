@@ -143,6 +143,18 @@
 
 @media screen and (max-width: 450px) {
 
+    .bannerMars #menu {
+        margin-left: 115px;
+        margin-top: -80px;
+        height: 180vh;
+    }
+
+    .bannerMars #image-menu {
+       margin-left: 320px;
+       margin-top: -20px;
+    }
+
+
     .Mars {
         overflow: hidden;
     }
@@ -201,6 +213,10 @@
     .Mars__Area-Left h3 {
       padding-left: 90px;
       font-size: 20px;
+    }
+
+    .bannerMars #image-menu {
+       margin-left: 290px;
     }
 
     .Mars__Area-Left img {

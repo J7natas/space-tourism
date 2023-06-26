@@ -2,12 +2,14 @@ import Header from "../../components/header/Header";
 import fotoGlover from '../../assets/crew/image-victor-glover.png';
 import './index.scss';
 import { Link } from "react-router-dom";
+import Menu from "../../components/Menu/Menu";
 
 
 const Glover = () => {
   return (
     <section  className='Glover'>
     <Header />
+    <Menu />
     <div className='Glover__Container'>
         <div className='Glover__Area-Left'>
            <div className='Glover__Titulo-principal'>

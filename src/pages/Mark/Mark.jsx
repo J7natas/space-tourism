@@ -2,11 +2,13 @@ import { Link } from 'react-router-dom';
 import fotoMark from '../../assets/crew/image-mark-shuttleworth.png';
 import Header from '../../components/header/Header';
 import './index.scss';
+import Menu from '../../components/Menu/Menu';
 
 const Mark = () => {
   return (
     <section  className='Mark'>
     <Header />
+    <Menu />
     <div className='Mark__Container'>
         <div className='Mark__Area-Left'>
            <div className='Mark__Titulo-principal'>

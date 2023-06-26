@@ -3,11 +3,13 @@ import Header from '../../components/header/Header';
 import foguete from '../../assets/technology/image-launch-vehicle-portrait.jpg';
 import './index.scss';
 import { Link } from 'react-router-dom';
+import Menu from '../../components/Menu/Menu';
 
 const Technology = () => {
   return (
    <section className='Technology'>
         <Header />
+        <Menu />
         <div className='Technology__Container'>
             <div className='Technology__Area-Left'>
                 <div className='Technology__Title-page'>

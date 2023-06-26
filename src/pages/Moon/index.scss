@@ -129,6 +129,12 @@
 
 @media screen and (max-width: 450px) {
 
+    .Moon #menu {
+        margin-left: -70px;
+        margin-top: -80px;
+        height: 190vh;
+    }
+
     .Moon {
         overflow: hidden;
     }
@@ -187,6 +193,16 @@
     .Moon__Area-Left h3 {
       padding-left: 90px;
       font-size: 20px;
+    }
+
+    .Moon #menu {
+        margin-left: -70px;
+        margin-top: -80px;
+        height: 190vh;
+    }
+
+    .Moon .Menu #image-menu {
+        margin-left: 110px;
     }
 
     .Moon__Area-Left img {

@@ -2,11 +2,13 @@ import './index.scss';
 import imageMars from '../../assets/destination/image-mars.png';
 import Mini from '../../components/minHeader/Mini';
 import Header from '../../components/header/Header';
+import Menu from '../../components/Menu/Menu';
 
 const Mars = () => {
   return (
     <div className='bannerMars'>
         <Header />
+        <Menu />
         <section className='Mars'>
             <div className='Mars__Area-Left'>
                 <h3> <span>01</span> Pick your destination </h3>

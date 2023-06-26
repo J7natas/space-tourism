@@ -2,11 +2,13 @@ import './index.scss';
 import imgEuropa from '../../assets/destination/image-europa.png';
 import Header from '../../components/header/Header';
 import MiniHeader from '../../components/minHeader/Mini';
+import Menu from '../../components/Menu/Menu';
 
 function Europa() {
   return (
     <div className='bannerMars'>
     <Header />
+    <Menu />
     <section className='Europa'>
         <div className='Europa__Area-Left'>
             <h3> <span>01</span> Pick your destination </h3>

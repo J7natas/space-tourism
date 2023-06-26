@@ -2,11 +2,13 @@ import Header from '../../../components/header/Header';
 import { Link } from 'react-router-dom';
 import './index.scss';
 import port from '../../../assets/technology/image-spaceport-portrait.jpg';
+import Menu from '../../../components/Menu/Menu';
 
 const SpacePort = () => {
   return (
     <section className='Port'>
     <Header />
+    <Menu />
     <div className='Port__Container'>
         <div className='Port__Area-Left'>
             <div className='Port__Title-page'>

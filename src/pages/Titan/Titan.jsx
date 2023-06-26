@@ -2,11 +2,13 @@ import Header from '../../components/header/Header';
 import MiniHeader from '../../components/minHeader/Mini';
 import imgTitan from '../../assets/destination/image-titan.png';
 import './index.scss';
+import Menu from '../../components/Menu/Menu';
 
 const Titan = () => {
   return (
     <div className='bannerMars'>
     <Header />
+    <Menu />
     <section className='Titan'>
         <div className='Titan__Area-Left'>
             <h3> <span>01</span> Pick your destination </h3>

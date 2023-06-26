@@ -1,0 +1,51 @@
+
+
+.Menu {
+
+    &__Menu {
+        position: absolute;
+        margin-left: 190px;
+        background-color: rgba(255, 255, 255, 0.093);
+        height: 96%;
+        margin-top: -30px;
+        backdrop-filter: blur(5px);
+        width: 256px;
+        display: none;
+    }
+    
+    #image-menu {
+        margin-left: 400px;
+        margin-top: -18px;
+        z-index: 333;
+        position: absolute;
+        display: none;
+    }
+    
+    &__Menu h5 {
+        font-family: 'barlow condensed';
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 60px;
+        letter-spacing: 3px;
+        margin-left: 10px;
+    }
+    
+    &__Menu a {
+        text-decoration: none;
+    }
+    
+    &__Menu span {
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+    .Menu #image-menu {
+        margin-left: 140px;
+        margin-top: -40px;
+        display: block;
+    }
+}

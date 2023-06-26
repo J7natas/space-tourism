@@ -143,6 +143,17 @@
 
 @media screen and (max-width: 450px) {
 
+    .bannerMars #menu {
+        margin-left: 115px;
+        margin-top: -80px;
+        height: 184vh;
+    }
+
+    .Europa #image-menu {
+       margin-left: 320px;
+       margin-top: -20px;
+    }
+
     .Europa {
         overflow: hidden;
         width: 100%;
@@ -203,6 +214,10 @@
       padding-left: 90px;
       font-size: 20px;
     }
+
+    .bannerMars #image-menu {
+        margin-left: 290px;
+     }
 
     .Europa__Area-Left img {
         height: 200px;
