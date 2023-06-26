@@ -252,6 +252,20 @@
    
 }
 
+@media screen and (max-width:415px){
+    .bannerMars #image-menu {
+        margin-left: 360px;
+        margin-top: -25px;
+    }
+
+    .Mars #menu {
+        margin-left: -28px;
+        width: 190px;
+        padding-top: 0px;
+        margin-top: -80px;
+    }
+}
+
 @media screen and (max-width:400px) {
     .bannerMars #image-menu {
         margin-left: 330px;
