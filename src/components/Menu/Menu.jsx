@@ -2,14 +2,14 @@ import menu from '../../assets/shared/icon-hamburger.svg';
 import close from '../../assets/shared/icon-close.svg';
 import './index.scss';
 
-let hamburger = document.querySelector("#menu");
-let img = document.querySelector('#image-menu');
-
-import React from 'react'
 import { Link } from 'react-router-dom';
 
 function Menu() {
+
     const handlerMenu = () => {
+      let hamburger = document.getElementById("menu");
+      let img = document.getElementById('image-menu');
+      
         if(hamburger.style.display == 'none'){
           hamburger.style.display = 'block';
           img.src = close;

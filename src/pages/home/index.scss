@@ -13,7 +13,6 @@ Header #activeDestination {
     background-image:url('../../assets/home/background-home-desktop.jpg');
     width: 100vw;
     height: 100vh;
-    position: absolute;
 
     &__container {
         display: grid;
@@ -179,7 +178,8 @@ Header #activeDestination {
 
 @media screen and (max-width:350px) {
     .Home #image-menu {
-        margin-left: 290px;
+        margin-left: 310px;
+        margin-top: -25px;
     }
 
     .Home #menu {
