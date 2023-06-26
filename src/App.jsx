@@ -1,5 +1,4 @@
 import { Routes,Route } from "react-router-dom"
-import Home from "./pages/home/home"
 import Destination from "./pages/destnation/Destination"
 import Mars from "./pages/Mars/Mars";
 import Europa from "./pages/Europa/Europa";
@@ -11,6 +10,7 @@ import Ansary from "./pages/ansary/Ansary";
 import Technology from "./pages/Technology/Technology";
 import SpacePort from "./pages/Technology/SpacePort/SpacePort";
 import Capsule from "./pages/Technology/Capsule/Capsule";
+import Home from "./pages/home/Home";
 
 
 function App() {

@@ -140,3 +140,113 @@
        margin-left: -120px;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .Europa {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .Europa__Area-Left h3 {
+      padding-left: 90px;
+    }
+
+    .Europa__Area-Left img {
+        height: 200px;
+        margin-left: 60px;
+    }
+
+    .Europa__Area-Rigth {
+        text-align: center;
+     }
+
+     .Europa__Description h1 {
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .Europa__Description p {
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .Europa footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 50px;
+    }
+
+    .Europa__Distance p {
+        margin-left: -65px;
+    }
+
+    .Europa__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Europa__Time h5,
+     .Europa__Distance h5 {
+       text-align: center;
+    }
+
+    .Europa__Area-Left h3 {
+       margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .Europa__Area-Left h3 {
+      padding-left: 90px;
+      font-size: 20px;
+    }
+
+    .Europa__Area-Left img {
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .Europa__Area-Rigth {
+        text-align: center;
+     }
+
+     .Europa__Description h1 {
+       text-align: center;
+       margin-left: 0px;
+       font-size: 45px;
+    }
+
+    .Europa__Description p {
+       text-align: center;
+       margin-left: 0px;
+       font-size: 15px;
+       width: 300px;
+       margin: auto;
+    }
+
+    .Europa footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+        display: block;
+    }
+
+    .Europa__Time h5 {
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .Europa__Distance h5 {
+        margin-left: 30px;
+    }
+
+    .Europa__Time p {
+        margin: 0;
+    }
+
+}

@@ -140,3 +140,113 @@
        margin-left: -120px;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .Titan {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .Titan__Area-Left h3 {
+      padding-left: 90px;
+    }
+
+    .Titan__Area-Left img {
+        height: 200px;
+        margin-left: 60px;
+    }
+
+    .Titan__Area-Rigth {
+        text-align: center;
+     }
+
+     .Titan__Description h1 {
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .Titan__Description p {
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .Titan footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 50px;
+    }
+
+    .Titan__Distance p {
+        margin-left: -65px;
+    }
+
+    .Titan__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Titan__Time h5,
+     .Titan__Distance h5 {
+       text-align: center;
+    }
+
+    .Titan__Area-Left h3 {
+       margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .Titan__Area-Left h3 {
+      padding-left: 90px;
+      font-size: 20px;
+    }
+
+    .Titan__Area-Left img {
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .Titan__Area-Rigth {
+        text-align: center;
+     }
+
+     .Titan__Description h1 {
+       text-align: center;
+       margin-left: 0px;
+       font-size: 45px;
+    }
+
+    .Titan__Description p {
+       text-align: center;
+       margin-left: 0px;
+       font-size: 15px;
+       width: 300px;
+       margin: auto;
+    }
+
+    .Titan footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+        display: block;
+    }
+
+    .Titan__Time h5 {
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .Titan__Distance h5 {
+        margin-left: 30px;
+    }
+
+    .Titan__Time p {
+        margin: 0;
+    }
+
+}

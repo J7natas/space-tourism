@@ -15,6 +15,42 @@ Header #activeDestination {
     height: 100vh;
     position: absolute;
 
+    &__Menu {
+        position: absolute;
+        margin-left: 190px;
+        background-color: rgba(255, 255, 255, 0.093);
+        height: 96%;
+        margin-top: -30px;
+        backdrop-filter: blur(5px);
+        width: 256px;
+        display: none;
+    }
+
+    #image-menu {
+        margin-left: 400px;
+        margin-top: -18px;
+        z-index: 333;
+        position: absolute;
+    }
+
+    &__Menu h5 {
+        font-family: 'barlow condensed';
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 60px;
+        letter-spacing: 3px;
+        margin-left: 10px;
+    }
+
+    &__Menu a {
+        text-decoration: none;
+    }
+
+    &__Menu span {
+        font-weight: 600;
+    }
+
     &__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -100,5 +136,80 @@ Header #activeDestination {
 
     .Home__areaText {
         padding: 70px 0px 0px 100px
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .Home {
+        width: 100%;
+        overflow: hidden;
+    }
+    .Home__areaText {
+        padding: 70px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .Home__Text-top {
+        font-size: 25px;
+
+    }
+
+    .Home__Text-destac {
+        font-size: 90px;
+        margin-left: 0px;
+    }
+
+    .Home__Paragrafo {
+       font-size: 15px;
+       text-align: center;
+       width: 350px;
+       margin: auto;
+    }
+
+    .Home__Button {
+        padding-top: 70px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .Home #image-menu {
+        margin-left: 340px;
+    }
+    .Home__Menu h5 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Home #image-menu {
+        margin-left: 320px;
+    }
+
+    .Home__Text-top {
+        font-size: 20px;
+
+    }
+
+    .Home__Text-destac {
+        font-size: 70px;
+    }
+
+    .Home__Paragrafo {
+        font-size: 15px;
+        text-align: center;
+        width: 300px;
+     }
+
+     .Home__Button button {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .Home #image-menu {
+        margin-left: 270px;
     }
 }

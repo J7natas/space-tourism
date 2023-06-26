@@ -140,3 +140,112 @@
        margin-left: -120px;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .Mars {
+        overflow: hidden;
+    }
+
+    .Mars__Area-Left h3 {
+      padding-left: 90px;
+    }
+
+    .Mars__Area-Left img {
+        height: 200px;
+        margin-left: 60px;
+    }
+
+    .Mars__Area-Rigth {
+        text-align: center;
+     }
+
+     .Mars__Description h1 {
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .Mars__Description p {
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .Mars footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 50px;
+    }
+
+    .Mars__Distance p {
+        margin-left: -65px;
+    }
+
+    .Mars__Time p {
+       margin-left: 0px;
+       text-align: center;
+    }
+
+    .Mars__Time h5,
+     .Mars__Distance h5 {
+       text-align: center;
+    }
+
+    .Mars__Area-Left h3 {
+       margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .Mars__Area-Left h3 {
+      padding-left: 90px;
+      font-size: 20px;
+    }
+
+    .Mars__Area-Left img {
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .Mars__Area-Rigth {
+        text-align: center;
+     }
+
+     .Mars__Description h1 {
+       text-align: center;
+       margin-left: 0px;
+       font-size: 45px;
+    }
+
+    .Mars__Description p {
+       text-align: center;
+       margin-left: 0px;
+       font-size: 15px;
+       width: 300px;
+       margin: auto;
+    }
+
+    .Mars footer {
+        width: 400px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+        display: block;
+    }
+
+    .Mars__Time h5 {
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .Mars__Distance h5 {
+        margin-left: 30px;
+    }
+
+    .Mars__Time p {
+        margin: 0;
+    }
+
+}

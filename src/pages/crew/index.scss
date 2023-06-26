@@ -119,3 +119,76 @@
        margin-left: 140px;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .Crew {
+        height: 163vh;
+    }
+
+    .Crew__Titulo-principal h2 {
+       margin-top: 50px;
+       margin-left: -120px;
+       font-size: 30px;
+    }
+
+    .Crew__Area-Text h3 {
+       font-size: 25px;
+    }
+
+    .Crew__Area-Text h2 {
+       font-size: 30px;
+    }
+
+    .Crew__Area-Text p {
+        font-size: 12px;
+        width: 350px;
+    }
+
+    .Crew__Bolinhas {
+       margin-left: 100px;
+    }
+
+    .Crew__Area-Right img {
+        height: 450px;
+        margin-top: 11px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .Crew {
+        height: 146vh;
+    }
+
+    .Crew__Titulo-principal h2 {
+       margin-top: 50px;
+       margin-left: -80px;
+       font-size: 25px;
+    }
+
+    .Crew__Area-Text h3 {
+       font-size: 20px;
+       margin-left: -20px;
+    }
+
+    .Crew__Area-Text h2 {
+       font-size: 25px;
+       margin-left: -20px;
+    }
+
+    .Crew__Area-Text p {
+        font-size: 12px;
+        width: 300px;
+        margin-left: -20px;
+    }
+
+    .Crew__Bolinhas {
+       margin-left: 60px;
+    }
+
+    .Crew__Area-Right img {
+        height: 350px;
+        margin-top: 11px;
+    }
+}
